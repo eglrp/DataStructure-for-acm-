@@ -21,3 +21,10 @@
 ## 二叉树
 
 * ### [根据中序遍历和后序遍历求出前序遍历](<https://github.com/hcmdgh/DataStructure/blob/master/BinaryTree/convert_1.h>)
+
+## 排序
+
+* ### [快速排序](<https://github.com/hcmdgh/DataStructure/blob/master/Sort/quick_sort.h>)
+
+* ### [归并排序](<https://github.com/hcmdgh/DataStructure/blob/master/Sort/merge_sort.h>)
+
