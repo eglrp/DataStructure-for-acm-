@@ -1,1 +1,1 @@
-#include "SegmentTree/segment_tree.h"
+#include "BinaryIndexedTree/binary_indexed_tree_3.h"
