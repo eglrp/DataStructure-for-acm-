@@ -1,1 +1,1 @@
-#include "Sort/merge_sort.h"
+#include "QuickPow/quick_pow.h"
