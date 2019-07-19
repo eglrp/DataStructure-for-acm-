@@ -30,4 +30,10 @@
 
 ## ST表
 
-* ### [ST表]()
+* ### [ST表](<https://github.com/hcmdgh/DataStructure/blob/master/ST-table/st_table.h>)
+
+## 快速幂
+
+* ### [快速幂](<https://github.com/hcmdgh/DataStructure/blob/master/QuickPow/quick_pow.h>)
+
+* ### [矩阵快速幂](<https://github.com/hcmdgh/DataStructure/blob/master/QuickPow/matrix_quick_pow.h>)
