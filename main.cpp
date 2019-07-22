@@ -1,1 +1,1 @@
-#include "QuickPow/quick_pow.h"
+#include "KnapsackProblem/knapsack_2.h"
