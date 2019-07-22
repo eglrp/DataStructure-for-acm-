@@ -37,3 +37,11 @@
 * ### [快速幂](<https://github.com/hcmdgh/DataStructure/blob/master/QuickPow/quick_pow.h>)
 
 * ### [矩阵快速幂](<https://github.com/hcmdgh/DataStructure/blob/master/QuickPow/matrix_quick_pow.h>)
+
+## 背包问题
+
+* ### 01背包
+
+  * #### [二维数组实现](<https://github.com/hcmdgh/DataStructure/blob/master/KnapsackProblem/knapsack_1.h>)
+
+  * #### [一维数组实现（优化版）](<https://github.com/hcmdgh/DataStructure/blob/master/KnapsackProblem/knapsack_2.h>)
