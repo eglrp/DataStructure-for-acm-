@@ -16,6 +16,8 @@
 
 * ### [高精度加法](<https://github.com/hcmdgh/DataStructure/blob/master/HighPrecisionComputation/plus.h>)
 
+* ### [高精度减法](<https://github.com/hcmdgh/DataStructure/blob/master/HighPrecisionComputation/subtract.h>)
+
 * ### [高精度乘法](<https://github.com/hcmdgh/DataStructure/blob/master/HighPrecisionComputation/multiply.h>)
 
 ## 二叉树
@@ -46,4 +48,4 @@
 
   * #### [一维数组实现（优化版）](<https://github.com/hcmdgh/DataStructure/blob/master/KnapsackProblem/knapsack_2.h>)
 
-* ### [完全背包]()
+* ### [完全背包](<https://github.com/hcmdgh/DataStructure/blob/master/KnapsackProblem/knapsack_3.h>)
