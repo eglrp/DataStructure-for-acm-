@@ -1,29 +1,30 @@
 // 完全背包问题
-// 有一个背包容量为capacity，有count件物品，每件有任意数量，求包能装的最大价值
-// 洛谷P1616
+// 有N种物品和一个载重量为W的背包，每种物品都有无限件可用。
+// 第i种物品的重量是weights[i]，价值是values[i]。
+// 求解将哪些物品装入背包，可使这些物品的总重量不超过背包载重量，且总价值最大。
+// AcWing P3
 
 #include <iostream>
 using namespace std;
 
-int capacity, count;
-int weight[10001];
-int value[10001];
-int dp[100001];
+int N, W;
+int weights[1000], values[1000];
+int dp[1001];
 
 int main() {
     ios::sync_with_stdio(false);
-    cin >> capacity >> count;
-    for (int i = 1; i <= count; ++i) {
-        cin >> weight[i] >> value[i];
+    cin >> N >> W;
+    for (int i = 0; i < N; ++i) {
+        cin >> weights[i] >> values[i];
     }
 
-    for (int i = 1; i <= count; ++i) {
-        for (int j = weight[i]; j <= capacity; ++j) {
-            dp[j] = max(dp[j], dp[j - weight[i]] + value[i]);
+    for (int i = 0; i < N; ++i) {
+        for (int j = weights[i]; j <= W; ++j) {
+            dp[j] = max(dp[j], dp[j - weights[i]] + values[i]);
         }
     }
 
-    cout << dp[capacity] << endl;
+    cout << dp[W] << endl;
 
     return 0;
 }
