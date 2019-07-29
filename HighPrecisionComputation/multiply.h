@@ -2,16 +2,16 @@
 #include <string>
 using namespace std;
 
-const int CAPACITY = 500;
-int a[CAPACITY], b[CAPACITY], c[CAPACITY];
+const int SIZE = 2005;
+const int RESULT_SIZE = SIZE * 2 + 1;
+int a[SIZE], b[SIZE], c[RESULT_SIZE];
 
 // 高精度乘法（opnd1*opnd2→result）
-void multiply(const int opnd1[], const int opnd2[], int result[], int length) {
-    fill(result, result + length, 0);
-    for (int i = 0; i < length; ++i) {
+void multiply(const int opnd1[], const int opnd2[], int result[]) {
+    for (int i = 0; i < SIZE; ++i) {
         if (b[i] > 0) {
             int carry = 0;
-            for (int j = 0; j < length; ++j) {
+            for (int j = 0; j < SIZE; ++j) {
                 result[i + j] += b[i] * a[j] + carry;
                 carry = result[i + j] / 10;
                 result[i + j] %= 10;
@@ -21,8 +21,8 @@ void multiply(const int opnd1[], const int opnd2[], int result[], int length) {
 }
 
 // 输出数组中的结果
-void output(const int result[], int length) {
-    int begin_pos = length - 1;
+void output(const int result[]) {
+    int begin_pos = RESULT_SIZE - 1;
     while (begin_pos >= 0 && result[begin_pos] == 0)
         --begin_pos;
     if (begin_pos < 0) {
@@ -48,8 +48,8 @@ int main() {
     for (int i = 0; i < length2; ++i) {
         b[i] = num2[length2 - 1 - i] - '0';
     }
-    multiply(a, b, c, CAPACITY);
-    output(c, CAPACITY);
+    multiply(a, b, c);
+    output(c);
 
     return 0;
 }
