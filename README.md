@@ -49,3 +49,5 @@
   * #### [一维数组实现（优化版）](<https://github.com/hcmdgh/DataStructure/blob/master/KnapsackProblem/knapsack_2.h>)
 
 * ### [完全背包](<https://github.com/hcmdgh/DataStructure/blob/master/KnapsackProblem/knapsack_3.h>)
+
+* ### [多重背包](<https://github.com/hcmdgh/DataStructure/blob/master/KnapsackProblem/knapsack_4.h>)
