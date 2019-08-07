@@ -58,4 +58,10 @@
 
 ## 图论
 
+* ### [并查集](<https://github.com/hcmdgh/DataStructure/blob/master/Graph/disjoint_set.h>)
+
+* ### [最小生成树（Prim算法）](<https://github.com/hcmdgh/DataStructure/blob/master/Graph/MST/prim.h>)
+
+* ### [最小生成树（Kruskal算法）](<https://github.com/hcmdgh/DataStructure/blob/master/Graph/MST/kruskal.h>)
+
 * ### [多源最短路径（Floyd算法）](<https://github.com/hcmdgh/DataStructure/blob/master/Graph/floyd.h>)
