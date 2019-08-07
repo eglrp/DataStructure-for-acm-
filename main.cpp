@@ -1,1 +1,1 @@
-#include "Graph/MST/kruskal.h"
+#include "Graph/dijkstra.h"
